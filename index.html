@@ -1,19 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Section</title>
-</head> 
-<body>
-    <header>
+    <!-- google font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- font Awesome -->
+    <script src="https://kit.fontawesome.com/e657bf9694.js" crossorigin="anonymous"></script>
+    <!-- DaisyUi CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .font-name {
+            font-family: "Inter", sans-serif;
+        }
+    </style>
+</head>
 
+<body class="font-name">
+    <header>
+        <!-- Navbar section style -->
+        <div class="navbar bg-base-100 shadow-sm mt-8 lg:px-40">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Contact</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Sign Up</a></li>
+                    </ul>
+                </div>
+                <a class="font-bold text-2xl">Exclusive</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 gap-5">
+                    <li><a>Home</a></li>
+                    <li><a>Contact</a></li>
+                    <li class="border-b"><a>About</a></li>
+                    <li><a>Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end gap-6 ">
+                <input type="text" class="px-4 py-1 border-none bg-gray-100 rounded-md"
+                    placeholder="What are you looking for?">
+                <div><i class="fa-regular fa-heart"></i></div>
+                <div><i class="fa-solid fa-cart-shopping"></i></div>
+                <div><i class="fa-regular fa-user"></i></div>
+            </div>
+        </div>
+        <!-- First Section -->
+        <div class="hero my-12 flex-1">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <img src="image/banner.png"
+                    class=" rounded-lg shadow-2xl" />
+                <div class="flex-1">
+                    <h1 class="text-5xl font-bold mb-8">Our Story</h1>
+                    <p class="">Launced in 2015, Exclusive is South Asia’s premier online shopping makterplace with an active presense in Bangladesh. Supported by wide range of tailored marketing, data and service solutions, Exclusive has 10,500 sallers and 300 brands and serves 3 millioons customers across the region. </p> <br>
+                    <p>Exclusive has more than 1 Million products to offer, growing at a very fast. Exclusive offers a diverse assotment in categories ranging  from consumer.</p>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
